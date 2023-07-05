@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+                /* header section */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+img[alt="beatsLogo"]{
+    margin-right: 300px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 40px;
+    margin-left: 110px;
+    font-size: 20px;
+}
+.shop-button{
+    padding: 10px 33px;
+    border-radius: 10px;
+    background-color: hsl(240, 5%, 12%);
+}
+                 /* Beats section */
+.beats-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 0px;
+    /* margin-left: 0px; */
+    
+}
+.beats-div1{
+ margin-top: 50px;
+ line-height: 30px;
+ margin-left: 100px;
+}
+img[alt="mainImage"]{
+    width: 220px;
+    position: relative;
+    top: -150px;
+}
+img[alt="onEar"]{
+  margin-left: 50px;
+  width: 320px;
+}
+.beats-div2{
+    display: flex;
+    align-items: center;
+    padding: 8px 25px;
+    background-color: hsl(240, 5%, 12%);
+    gap: 20px;
+    border-radius: 8px;
+    width: fit-content;
+    margin-top: 20px;
+}
+.beats-div2:hover{
+    cursor: pointer;
+}
+.beats-div2 img{
+    background-color: transparent;
+    width: 15px;
+    
+}
+.beats-3{
+    font-size: 46px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+h4{
+    margin-bottom: 20px;
+}
+.beats-p{
+color: hsl(204, 4%, 75%);
+}
+.beats-div2 p{
+    background-color: transparent;
+}
+.beats-div2 span{
+    background-color: transparent;
+}
+
+                   /* Company-logo  */
+.Company-logo{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 100px;
+   margin-top: 40px;
+}
+.Company-logo:hover{
+    cursor: pointer;
+}
+
+                     /* Specs */
+img[alt="specsLogo"]{
+    margin-top: 70px;
+    margin-left: 680px;
+}
+.specs-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 20px;
+}
+img[alt="specsImage"]{
+    width: 250px;
+    margin-top: 50px;
+}
+.specs-main-list p{
+color: hsl(204, 4%, 75%);
+margin-top: -10px;
+}
+.battery-div{
+    margin-left: -35px;
+    margin-top: 20px;
+}
+.charger{
+    margin-left: -35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+                     /* Case */
+
+img[alt="caseLogo"]{
+    margin-top: 100px;
+    margin-left: 700px;
+}
+.case-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 80px;
+}
+.case-div1 p{
+    line-height: 30px;
+    color: hsl(204, 4%, 75%);
+    font-size: 18px;
+}
+.case-div2{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding: 10px 20px;
+    background-color:hsl(240, 5%, 12%) ;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.case-div2:hover{
+    cursor: pointer;
+}
+img[alt="group"]{
+    background:transparent;
+}
+h5{
+    background: transparent;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.buynow{
+    display:flex;
+    margin-top: 100px;
+    align-items: center;
+    gap: 50px;
+    padding: 40px 100px;
+    width: fit-content;
+    background-color:hsl(200, 6%, 10%) ;
+    margin-left: 350px;
+    border-radius: 10px;
+}
+img[alt="buyNowSectionImage"]{
+    background: transparent;
+    margin-left: 100px;
+}
+.buynow-div{
+    line-height: 30px;
+    background-color: transparent;
+}
+.buynow-div h3,
+.buynow-div p{
+    background: transparent;
+}
+.buynow-div p{
+    color: hsl(204, 4%, 75%);
+}
+.buynow-div2{
+width: fit-content;
+display: flex;
+padding: 8px 20px;
+align-items: center;
+gap: 20px;
+border-radius: 10px;
+margin-top: 20px;
+}
+.buynow-div2:hover{
+    cursor: pointer;
+}
+              /* Choose section */
+img[alt="chooseimg"]{
+    margin-top: 100px;
+    margin-left: 700px;
+    width: 200px;
+}
+img[alt="choose-img"]{
+    width: 80px;
+    background-color: transparent;
+}
+.product-case{
+    padding: 10px 35px;
+    background-color:hsl(200, 6%, 10%);
+    width: 160px;
+    position: relative;
+    /* bottom: 100px; */
+    border-radius: 10px;
+}
+.product-case:hover{
+    cursor: pointer;
+}
+.choose-section{
+   display: grid;
+   grid-template-columns: 1fr 7fr;
+   padding-left: 540px;
+   column-gap: 70px;
+   row-gap: 10px;
+   margin-top: 30px;
+}
+/* added things */
+.product-case{
+    margin-top: 50px;
+    height: 150px;
+}
+.product-case{
+    position:relative;
+
+}
+img[alt="choose-img"]{
+    position: relative;
+    bottom:60px;
+    width: 104%;
+}
+.product-info{
+    position: absolute;
+    bottom: 0px;
+    right: 5px;
+    background-color: transparent;
+    gap: 28px;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: 400;
+    display: flex;
+    align-items: flex-end;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+    
+
+.product-info p,
+.product-info span{
+  background-color: transparent;
+}
+.shoppingBag{
+    padding: 2px 6px;
+    border-radius: 7px;
+}
+.product-info div img{
+    width: 13px;
+    height: 13px;
+}
+
+                   /* footer */
+footer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 100px;
+   
+
+}
+img[alt="beatsLogo1"]{
+    margin-left: 280px;
+    margin-top: 10px;
+}
+ul li a{
+    font-size: 12px;
+    color: #BDC0C2;
+ text-decoration: none;
+}
+ul h1 a{
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 10px;
+}
+ul h1{
+    margin-bottom: 20px;
+}
+ul li{
+    list-style: none;
+    margin-bottom: 10px;
+    line-height: 10px;
+}
+ul li:first-child a{
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+}
+.footer-subscription{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .footer-subscription div:first-child{
+    background: #181A1B;
+  border-radius: 8px;
+  padding: 5px 10px;
+  display: flex;
+  }
+  .subscribe-button{
+  display: flex;
+  padding:10px 20px;
+  align-items: center;
+  gap: 20px;
+  border-radius: 8px;
+  }
+  .footer-subscription div:first-child input{ 
+    border: none;
+    background-color: transparent; 
+  }
+  .subscribe-button:hover{
+    cursor: pointer;
+  }
+  
+  .footer-subscription div:last-child img{
+    margin-right: 10px;
+    /* scale: 0.8; */
+  } 
+  .social:hover{
+    cursor: pointer;
+  }
+  .arrow-up:hover{
+cursor: pointer;
+  }
+  

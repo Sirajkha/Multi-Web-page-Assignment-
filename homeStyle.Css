@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dela Gothic One', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: rgb(220, 225, 225);
+}
+                    /* Header section */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+nav img{
+    margin-right: 200px;
+    width: 10%;
+}
+nav div{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+                     /* Main Section */
+.Mainsection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+/* left section */
+.left-section{
+    margin-left: 200px;
+    margin-top: 47px;
+}
+img[alt="topAngle"]{
+    width: 20px;
+}
+.left-section h1{
+font-size: 58px;
+line-height: 65px;
+
+}
+.left-section p{
+    margin-top: 25px;
+    color:hsl(0, 0%, 49%);
+    font-size: 14px;
+}
+img[alt="stethoscope"]{
+    width: 32%;
+    position: absolute;
+   top: 175px;
+   right:547px;
+  
+}
+img[alt="bottomAngle"]{
+margin-left: 535px;
+width: 20px;
+margin-top: 10px;
+}
+img[alt="mouse"]{
+    width: 25px;
+    margin-left: 310px;
+  
+}
+.left-section button{
+    padding: 12px 40px;
+    background-color: hsl(156, 71%, 43%);
+    color: white;
+    font-size: 20px;
+    border-radius: 30px;
+    margin-top: -20px;
+    border: none;
+    cursor: pointer;
+}
+.left-section button:hover{
+color:hsl(156, 71%, 43%) ;
+background-color: #fff;
+}
+
+/* right section */
+.right-section{
+    margin-top: 200px;
+}                 
+img[alt="greenBox"]{
+    width: 450px;
+    position: absolute;
+    bottom: 30px;
+    right: 27px;
+} 
+img[alt="yellowBox"]{
+    width: 380px;
+    position: absolute;
+    right: 20px;
+    bottom: 46px;
+}
+img[alt="doctor"]{
+    /* width: 450px; */
+    height: 90%;
+    position: absolute;
+    /* top: 50px;  */
+    right: 25px; 
+    bottom: 0px;
+}
